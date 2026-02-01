@@ -1,5 +1,5 @@
 #QN.NO-1
-def extract_firstwords(sample.txt):
+def extract_firstwords(filename):
     first_words_list = []
     with open("sample.txt", 'r') as file:
         for line in file:
